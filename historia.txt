@@ -28,3 +28,5 @@ git reset: con el argumento --hard
 
 git checkout ""version que necesitas" "archivo"  esto traerta el archivo que necesitas en la version
 git checkout master "Nombre del archivo" regresara de la rama master
+
+as
