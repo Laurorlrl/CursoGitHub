@@ -7,3 +7,20 @@ git config --global user.name "Tu Nombre"
 
 
 git log historia.txt
+
+git show
+
+
+hola
+
+
+git init -> “inicia” nuestro repositorio, es decir arranca es sistema de control de versiones en la carpeta ubicada.
+git add -> “agrega” el archivo especificado o los cambios del mismo.
+git add . -> “agrega” todos los archivos modificados
+git commit -> “compromete”/guarda los cambios realizados de manera local.
+- m -> para agregar un mensaje a la modificación y mantener un proyecto limpio y organizado | higiénico.
+git status -> ver estatus
+git show -> muestra todos los cambios históricos realizados
+git log -> ver historial de un archivo específico.
+git push -> “Empujar” tu/tus archivos/cambios del archivo al mundo cruel/al infinito y más allá.
+git pull -> “traer” | jalar archivos del mundo cruel a tu repositorio local.
