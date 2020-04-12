@@ -24,3 +24,7 @@ git show -> muestra todos los cambios históricos realizados
 git log -> ver historial de un archivo específico.
 git push -> “Empujar” tu/tus archivos/cambios del archivo al mundo cruel/al infinito y más allá.
 git pull -> “traer” | jalar archivos del mundo cruel a tu repositorio local.
+git reset: con el argumento --hard
+
+git checkout ""version que necesitas" "archivo"  esto traerta el archivo que necesitas en la version
+git checkout master "Nombre del archivo" regresara de la rama master
