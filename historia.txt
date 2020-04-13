@@ -6,12 +6,7 @@ git config --global user.email "tu@email.com"
 git config --global user.name "Tu Nombre"
 
 
-git log historia.txt
 
-git show
-
-
-hola
 
 
 git init -> “inicia” nuestro repositorio, es decir arranca es sistema de control de versiones en la carpeta ubicada.
@@ -29,5 +24,10 @@ git reset: con el argumento --hard
 git checkout ""version que necesitas" "archivo"  esto traerta el archivo que necesitas en la version
 git checkout master "Nombre del archivo" regresara de la rama master
 git diff muestra diferencias
-as
-hola como estas...
+
+Ramas GIt y merge
+Git branch Cabecera se crea a partir de la rama principal
+Git checkout “Rama” Paso a otra rama establecida.
+Git branch Lista las ramas que tengo.
+
+git merge:fusionar 2 rama
