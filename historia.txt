@@ -33,3 +33,7 @@ Git branch Lista las ramas que tengo.
 git merge:fusionar 2 rama
 
 git remote add origin "Url"
+git remote revisar fecha
+git remote -v revisar a que repositorio apunta.
+
+
