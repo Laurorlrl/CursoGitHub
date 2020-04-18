@@ -34,4 +34,5 @@ git remote add origin "Url"
 git remote revisar fecha
 git remote -v revisar a que repositorio apunta.
 
-
+git push origin master enviar a repositorio
+git 
