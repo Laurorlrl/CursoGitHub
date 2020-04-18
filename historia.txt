@@ -4,9 +4,7 @@ git commit
 
 git config --global user.email "tu@email.com"
 git config --global user.name "Tu Nombre"
-
-
-
+git config -l revisar historias
 
 
 git init -> “inicia” nuestro repositorio, es decir arranca es sistema de control de versiones en la carpeta ubicada.
