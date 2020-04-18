@@ -35,4 +35,4 @@ git remote revisar fecha
 git remote -v revisar a que repositorio apunta.
 
 git push origin master enviar a repositorio
-git 
+git pull trarer de repositorio a master
