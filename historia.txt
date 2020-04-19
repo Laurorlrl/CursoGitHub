@@ -36,3 +36,10 @@ git remote -v revisar a que repositorio apunta.
 
 git push origin master enviar a repositorio
 git pull trarer de repositorio a master
+
+-- Agregar llave ssh
+ssh-keygen -t rsa -b 4096 -C "Correo asociado a github" 
+evaluar que el agente ssh de tu maquina esta corriendo
+depues asociar llave a sistema
+agregar llave publica a perfil de GitHub
+git remote set-url origin git@github.com:Laurorlrl/CursoGitHub.git 
