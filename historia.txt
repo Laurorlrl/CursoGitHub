@@ -53,4 +53,4 @@ tags
 git tag -a v0.1 -m "Resultado de las Primeras Clases del Curso" iddelcurso -- agregar tag 72fdccb
  git tag  ---v ver tdos los tag
 git  show-ref --tags --- ver tag y detalles
-
+git push origine --tags
