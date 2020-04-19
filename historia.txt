@@ -32,14 +32,25 @@ git merge:fusionar 2 rama
 
 git remote add origin "Url"
 git remote revisar fecha
-git remote -v revisar a que repositorio apunta.
+git remote -v --revisar a que repositorio apunta.
 
 git push origin master enviar a repositorio
 git pull trarer de repositorio a master
 
 -- Agregar llave ssh
 ssh-keygen -t rsa -b 4096 -C "Correo asociado a github" 
-evaluar que el agente ssh de tu maquina esta corriendo
-depues asociar llave a sistema
+eval $(ssh-agent -s) --evaluar que el agente ssh de tu maquina esta corriendo
+ssh-add ~/proyecto/.ssh/id_rsa ---depues asociar llave a sistema  ~ es una variable que contiene la informacion del directorio donde esta ubicado
 agregar llave publica a perfil de GitHub
 git remote set-url origin git@github.com:Laurorlrl/CursoGitHub.git 
+
+
+revisar verion cortas de log
+git log --all --graph --decorate -- oneline
+
+
+tags
+git tag -a v0.1 -m "Resultado de las Primeras Clases del Curso" iddelcurso -- agregar tag 72fdccb
+ git tag  ---v ver tdos los tag
+git  show-ref --tags --- ver tag y detalles
+
