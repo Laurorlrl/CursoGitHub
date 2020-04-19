@@ -27,8 +27,11 @@ Ramas GIt y merge
 Git branch Cabecera se crea a partir de la rama principal
 Git checkout “Rama” Paso a otra rama establecida.
 Git branch Lista las ramas que tengo.
-
+git show-branch
 git merge:fusionar 2 rama
+
+ añadir github via htpps
+
 
 git remote add origin "Url"
 git remote revisar fecha
@@ -54,3 +57,5 @@ git tag -a v0.1 -m "Resultado de las Primeras Clases del Curso" iddelcurso -- ag
  git tag  ---v ver tdos los tag
 git  show-ref --tags --- ver tag y detalles
 git push origine --tags
+git tag -d nombre del tag .. borrar local
+git push origin :refs/tags/nombre del tag ... borrar en repositodio
